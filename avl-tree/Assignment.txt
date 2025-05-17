@@ -1,0 +1,12 @@
+Implement ADT AVL Tree using a linked list of nodes of structure having Balance_Factor,
+Month Name, left pointer, right pointer, and parent pointers pointing to left sub-trees, right
+sub tree and parent of the node respectively. Perform series of insertions of months -
+December, January, April, March, July, August, October, February, November, May, June.
+Write following functions:
+initAVL() // to initialize the tree.
+insertNode() // recursive/ non-recursive function to add a new node to the AVL tree.
+removeNode() // to remove a node from a tree.
+traverse() // write any of the traversal method to display month name, parent and
+balance_factor of each node.
+destroyTree() // to delete all nodes of the tree
+Write a menu driven program to invoke all above functions
