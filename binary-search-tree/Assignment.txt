@@ -1,0 +1,12 @@
+Implement ADT Binary Search Tree using a linked list of nodes of structure having MIS,
+Name, left pointer, right pointer, and parent pointers pointing to left sub-trees, right sub tree
+and parent of the node respectively. The BST is organized by the MIS number.
+Write following functions:
+initBST() // to initialize the tree.
+insertNode() // recursive function to add a new node to the tree.
+removeNode() // to remove a node from a tree.
+search() // to recursively search for a node with the given key.
+postorder() // write a non-recursive function for post order traversal.
+Display_Level() // to display all nodes of ith level.
+destroyTree() // to delete all nodes of a tree
+Write a menu driven program to invoke all above functions.
