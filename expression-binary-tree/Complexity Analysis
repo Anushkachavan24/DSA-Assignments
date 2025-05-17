@@ -1,0 +1,33 @@
+Time complexity analysis of all functions in Expression tree:
+1) Infix_to_postfix:
+    For infix to postfix conversion we required following functions:
+    i) Precedence:
+         This function is used to determine the precedence of the oprators.
+         So, in one infix expression, there can be N/2 operators. Hence, total (N/2+N/2 = N) comparisions
+         sre required.
+    ii) Push:
+         This function approximately requires N/2 times.
+    iii) Pop:
+         This function approximately requires N/2 times.
+    Therefore, n+n/2+n/2 = (Cn) where c is a constant
+    Hence, the overall time complexity of infix to postfix conversion is O(N).
+
+2) InitTree:
+    This function is required for the construction of expression tree from postfix expression.
+    Push and Pop functions are also required which requires nearly N/2 times for (N length) postfix expression.
+    In this function each symbol in postfix expression is traversed only once.
+    (i.e) For (N length) postfix expression we have to check whether it is operator or operand N times.  
+    Hence, the overall time complexity of InitTree is O(N).
+ 
+3) Inorder:
+    This function gives the inorder traversal of expression tree.
+    In this function each node of the expression tree is visited only once.So, if N nodes are present then 
+    time complexity is O(N).
+    Hence, the overall time complexity of Inorder is O(N).
+
+4) Compute:
+    This function is used to evaluate the expression tree.
+    This function is similar as inorder traversal as each node is only visited once but after traversing, 
+    for evaluation it takes constant time c.
+    Hence, the overall time complexity of Compute for N nodes expression tree is N+c (i.e) O(N). 
+          
