@@ -1,0 +1,12 @@
+Perform following operations using Linked List:
+1. Reverse the list
+2. Insert at front
+3. Insert the node
+4. Insert at end
+5. Insert after node
+6. Delete at front
+7. Delete the node
+8. Delete at end
+9. Delete after node
+10. Delete the number
+11. Search
